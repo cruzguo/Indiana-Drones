@@ -1,2 +1,15 @@
-In this assignment, I implemented a SLAM (Simultaneous Localization and Mapping) system for an Indiana Jones-themed game. The system processes measurements from trees to update the drone's location and the positions of obstacles, while also managing movements and actions 
-like treasure extraction. The implementation includes a basic SLAM module to handle location updates and a planner to navigate the drone through the environment, avoiding obstacles and reaching treasure efficiently.
+**Part A: SLAM**
+Implement a SLAM module to estimate the positions of trees and the drone itself using given movements and measurements.
+
+**Function:** process_measurements(measurements: Dict) updates the drone's and trees' positions based on sensor data.
+**Function:** process_movement(distance: float, steering: float) updates the drone's position based on movement commands.
+**Function:** get_coordinates() retrieves the estimated locations of the drone and trees.
+**Part B:** Navigation
+Develop an action planner to navigate the drone to a treasure while avoiding obstacles.
+
+**Function:** next_move(measurements: Dict, treasure_location: Dict) determines the next action for the drone, either to move or extract the treasure.
+**Setup**
+Clone the repository.
+Implement the SLAM and navigation classes in indiana_drones.py.
+Test using the provided testing_suite_indiana_drones.py.
+Visualize results with visualize.py.
