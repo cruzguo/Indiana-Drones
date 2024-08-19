@@ -1,0 +1,2 @@
+In this assignment, I implemented a SLAM (Simultaneous Localization and Mapping) system for an Indiana Jones-themed game. The system processes measurements from trees to update the drone's location and the positions of obstacles, while also managing movements and actions 
+like treasure extraction. The implementation includes a basic SLAM module to handle location updates and a planner to navigate the drone through the environment, avoiding obstacles and reaching treasure efficiently.
